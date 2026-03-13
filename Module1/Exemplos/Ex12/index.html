@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="htmlicon.ico" type="image/x-icon">
+        <title>Trabalhando com links</title>
+    </head>
+    <body>
+        <h1>Usando links externos</h1>
+        <!--target="_blank" - para abrir nova aba-->
+        <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no Github</a></p>
+        <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratituito no YouTube</a></p>
+        <!--Faz ligação com outra que está no dentro do servidor-->
+        <h2>Usando links internos</h2>
+        <!--rel="next" - facilita mecanismo de busca a encontrar outras páginas, isto é, sistema de nagevagação-->
+        <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="page2.html" rel="next">segunda página</a></p>
+        <p>Você também pode acessar a nossa <a href="Notícias/page3.html" rel="next" target="_self">página de notícias</a></p>
+        <h1>Links para download</h1>
+        <ul>
+            <!--iana.org/assignments/mediatypes para acessar mediastypes de arquivos -->
+            <li><a href="livro/Bom Português.pdf" download="Bom Português.pdf" type="application/pdf">Baixar livro em PDF</a></li>
+            <!--"#" link vazio-->
+            <li><a href="#" download="Bom Português.zip" type="application/zip">Baixar livro em ZIP</a></li>
+        </ul>
+    </body>
+</html>

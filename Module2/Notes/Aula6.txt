@@ -1,0 +1,5 @@
+//Aula: Modelo de Caixas na Prática(Parte 1)
+User agent - navegador que está exibindo conteúdo
+display: block; - elemento de do tipo box-level
+
+Opção de desenvolvedor no chrome: inspect -> elements

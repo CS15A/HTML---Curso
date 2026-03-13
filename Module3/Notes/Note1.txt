@@ -1,0 +1,4 @@
+//Aula: O que é GitHub?
+Repositório local/remoto - local onde guardamos documentos
+Git - onde guardamos versões dos nossos programas no computador(Repositório local)
+Github - faz backup dos gits na nuvem(Repositório remoto)

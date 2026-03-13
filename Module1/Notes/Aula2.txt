@@ -1,0 +1,19 @@
+Direitos
+Usar filtros na google para pesquisar imagem sem direitos de autores
+
+Sites com direitos autorais de imagem
+-unsplash
+-pexels
+
+GIMP - 
+
+Formato de imagens usados em Web
+-jpeg(melhor formato de compactação para carregar arquivos leves): foto de fundo
+-png(alta compactação e transparência): imagem pequenas
+
+Imagem: conjunto de pontos(linhas e colunas)
+
+Favicon - icon ao lado title do site(Aba)
+-Podemos buscar por icons no IconArchive e baixar no formato icon
+-Posso criar icon no favicon.cc
+-favicon.io para gerar icon a partir de texto

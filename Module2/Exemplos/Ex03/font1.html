@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Fontes em CSS</title>
+        <style>
+            body {
+                /*Fontes serifadas: Arial/Helvetica/Verdana*/
+                font-family: arial;
+                /*Tipos de medidas
+                absolutas:
+                cm, mm, in(polegada), px, pt(ponto) - não recomendado, pc(paica)
+
+                relativas:
+                em(relativa a tamanho da fonte), ex(relatica a altura da fonte), erm(relativa a route da fonte configurada), vw(% da view port), %
+                
+                16px = 1em
+                */
+                font-size: 1em;
+
+                /*ligther/ normal/ bold/ bolder*/
+                font-weight: lighter;
+
+                /*italic/ normal*/
+                font-style: italic;
+
+                /*Sublinhado*/
+                text-decoration: underline;
+            }
+
+            h1{
+                /*shorthand font: font-style-> font-weight-> font-size-> font-family*/
+                font: italic bolder 3em sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Trabalhando com fontes</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla doloremque veritatis consequuntur dolores quos libero animi ratione porro, repellat quaerat rerum? Maiores veritatis ab quis unde voluptas magnam, beatae non?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aperiam expedita beatae quam enim eius aliquid consequatur dolor molestias cumque, a quae earum numquam autem laudantium. Nisi quisquam repellendus atque.</p>
+        <h2>Subtítulo de exercício</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quo quia numquam nemo laudantium rem temporibus deserunt doloribus voluptas cumque. Adipisci praesentium labore officiis eum sapiente nesciunt deserunt aspernatur rem.</p>
+    </body>
+</html>

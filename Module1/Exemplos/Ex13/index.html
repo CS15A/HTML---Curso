@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="">
+        <title>Mídias em HTML5</title>
+    </head>
+    <body>
+        <h1>Imagem dinâmica</h1>
+        <p>Tente abrir esse site em vários dispositivos diferentes
+            ou simplesmente aumente e diminua o tamanho do seu navegador
+        </p>
+        <!--Permite que crie em várias sources(Video: Imagens que se adaptam sozinhas)-->
+        <picture>
+            <source media="(max-width: 750px)" srcset="" type="image/">
+            <source media="(max-width: 1000px)" srcset="image/image2.jpg" type="image/">
+            <img src="images/image1.jpg" alt="Imagem flexível">
+        </picture>
+        <h1>Reproduzindo áudio</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML5</p>
+        <!--preload para autoplay
+        o loop -->
+        <audio preload="metadata" autoplay controls loop>
+            <!--type="audio/mpeg ou ogg ou wav"Áudio em formato MP3-->
+            <source src="midia/exercicios_modulo-01_ex011_midia_happy-mistake.mp3" type="audio/mpeg">
+            <p>Infelizmente seu navegador não consegue reproduzir áudio</p>
+        </audio>
+        <!--MP3 WAV OGG-->
+    </body>
+</html>

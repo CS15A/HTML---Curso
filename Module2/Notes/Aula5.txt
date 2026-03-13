@@ -1,0 +1,12 @@
+//Aula - Modelo de Caixas
+Border - linha que circunda o conteúdo
+Padding/preenchimento - espaço entre border e conteúdo-espaço interno
+Margin - espaço externo
+Outline - traçado fora da borda
+
+Tipos de Caixa 
+1.Box-level - ocupa largura inteira da tela e parágrafo inicia na linha seguinte
+Ex: div, h1...h6, p, main, header, form, etc.
+2.Inline-level - não pula de linha/não quebra linha e não ocupa largura da tela
+Ex: spam, a, code, small, strong, label, button, etc.
+NB: Todo parágrafo é uma caixa
