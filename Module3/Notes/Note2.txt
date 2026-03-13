@@ -1,0 +1,2 @@
+//Aula: Hospedando site gratuitamente com GitHub Pages
+www.qr-code-generator.com - site para gerar qr codes de urls
