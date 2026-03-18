@@ -1,0 +1,4 @@
+//Aula: Planejando a estrutura do seu site
+1.Acessar MockFlow - usado para planejamento de site
+2.Acessar Adobe Color para fotos(pesquisar por android para cores  #3DDC84 Paletas monocromáticas)
+4.Acessar Google Fontes e Dafont(Bebas Neue/idroid)

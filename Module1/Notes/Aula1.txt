@@ -1,0 +1,51 @@
+HTML(Hypertext Markup Language)
+Hypertext(Hipertexto) - quando temos um texto que posso clicar e leva-me para outro texto. Focada em conteúdo pode ser: texto, imagem e vídeo.
+Markup(Marca) -
+Language(Linguagem) -
+
+CSS(Cascading Style Sheets) - folhas de estilo em cascata. Focado em design: tamanho da imagem, estilo, cores das letras, etc.
+Cascading - folhas 
+Style - estilo
+Sheets - folha
+
+JavaScript - interactividade, ação dos conteúdos.
+
+HTML
+Título
+<h1> - tag de abertura
+</h1> - tag de fecho
+Ex: <h1>Jornal</h1>
+
+Páragrafo
+<p>Hoje...</p>
+
+imagem
+<img src="foto.png" alt="Exemplo de foto">
+Parâmetros:
+src - origem da foto
+alt - texto alternativo para identificar imagem
+
+CSS
+h1 - selector
+h1 {
+    <!--Declaração-->
+    font-family:Arial;
+}
+
+Estrutura básica de documento HTML
+<!DOCTYPE html> - informa ao navegador que vai desenvolver o documento na versão atual(v5)
+<!--lang - conteúdo vai ser em português para facilitar tradução-->
+<html lang="pt">
+    <!--Área de configuração-->
+    <head>
+        <!--UFT - 8: permite que tenha acentuações-->
+        <meta charset="UTF-8">
+        <!--viewport: site ocupa 100% da tela branca, visualizar à escala de 100%-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!---Título->
+        <title></title>
+    </head>
+    <body>
+        <h1>Olá, mundo!</h1>
+    </body>
+</html>

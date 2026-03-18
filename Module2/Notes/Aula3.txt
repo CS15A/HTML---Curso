@@ -1,0 +1,5 @@
+Aula: Primeiros passos em Tipografia
+Tipografia: estudo de como escrever na papel, telas, etc
+
+//Site para ver combinações de CSS
+css web safe fonts combinations - W3Schools
