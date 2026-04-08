@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead {
+            background-color: gray;
+            color: white;
+        }
+
+        /*Para tabelas de muitas linhas*/
+        thead > tr > th {
+            position: sticky;
+            top: -1PX;
+            background-color: #383838;
+        }
+
+        /*
+        Efeito zebrado
+        odd - célula ímpar
+        even - célula par
+        */
+        tbody > tr:nth-child(odd) {
+            background-color: white;
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        tfoot {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+    Anotomia para tabelas grandes
+    Table
+        Caption/Legenda
+        THead
+            TR, TD, TH
+        TBody
+            TR, TD, TH
+        TFoot
+            TR, TD, TH
+    -->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.649</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num">210.147.125</td>
+            </tr>
+        </tfoot>
+    </table>
+    <P>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Ea eveniet, eaque temporibus atque voluptatibus iste qui 
+        culpa iusto pariatur velit eligendi eius aperiam. Laudantium nemo
+        delectus ad placeat quas consectetur!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Sed et nam ipsa alias quidem necessitatibus sit perferendis
+        aperiam animi distinctio, optio a ratione quis nisi possimus. Amet
+        sed neque iste.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Quo magnam nesciunt, incidunt quam illum recusandae iure modi 
+        dolorum similique sunt voluptatibus at soluta quae accusamus nihil
+        ipsam itaque, expedita sapiente.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Rem eos laborum consequatur provident magnam illo animi cumque, 
+        incidunt aliquam quasi ipsum unde quod debitis nulla natus ducimus 
+        aspernatur. A, voluptatum.
+    </P>
+    <P>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Ea eveniet, eaque temporibus atque voluptatibus iste qui 
+        culpa iusto pariatur velit eligendi eius aperiam. Laudantium nemo
+        delectus ad placeat quas consectetur!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Sed et nam ipsa alias quidem necessitatibus sit perferendis
+        aperiam animi distinctio, optio a ratione quis nisi possimus. Amet
+        sed neque iste.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Quo magnam nesciunt, incidunt quam illum recusandae iure modi 
+        dolorum similique sunt voluptatibus at soluta quae accusamus nihil
+        ipsam itaque, expedita sapiente.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Rem eos laborum consequatur provident magnam illo animi cumque, 
+        incidunt aliquam quasi ipsum unde quod debitis nulla natus ducimus 
+        aspernatur. A, voluptatum.
+    </P>
+    <P>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Ea eveniet, eaque temporibus atque voluptatibus iste qui 
+        culpa iusto pariatur velit eligendi eius aperiam. Laudantium nemo
+        delectus ad placeat quas consectetur!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Sed et nam ipsa alias quidem necessitatibus sit perferendis
+        aperiam animi distinctio, optio a ratione quis nisi possimus. Amet
+        sed neque iste.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Quo magnam nesciunt, incidunt quam illum recusandae iure modi 
+        dolorum similique sunt voluptatibus at soluta quae accusamus nihil
+        ipsam itaque, expedita sapiente.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Rem eos laborum consequatur provident magnam illo animi cumque, 
+        incidunt aliquam quasi ipsum unde quod debitis nulla natus ducimus 
+        aspernatur. A, voluptatum.
+    </P>
+    <P>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Ea eveniet, eaque temporibus atque voluptatibus iste qui 
+        culpa iusto pariatur velit eligendi eius aperiam. Laudantium nemo
+        delectus ad placeat quas consectetur!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Sed et nam ipsa alias quidem necessitatibus sit perferendis
+        aperiam animi distinctio, optio a ratione quis nisi possimus. Amet
+        sed neque iste.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Quo magnam nesciunt, incidunt quam illum recusandae iure modi 
+        dolorum similique sunt voluptatibus at soluta quae accusamus nihil
+        ipsam itaque, expedita sapiente.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Rem eos laborum consequatur provident magnam illo animi cumque, 
+        incidunt aliquam quasi ipsum unde quod debitis nulla natus ducimus 
+        aspernatur. A, voluptatum.
+    </P>
+</body>
+</html>
