@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+            border: 1px solid black;
+            width: 600px;
+            height: 400px;
+            border-collapse: collapse;
+        }
+
+        thead, th{
+            border: 1px solid black;
+            vertical-align: middle;
+            background-color: grey;
+            color: white;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .subTitle {
+            border: 1px solid black;
+            text-align: center;
+            background-color: grey;
+            color: white;
+            font-weight: bold;
+        }
+
+        .leftAligment {
+            text-align: left;
+            padding-left: 5px;
+        }
+
+        tfoot {
+            color: white;
+            background-color: gray;
+        }
+
+        #footTitle {
+            text-align: left;
+            padding-left: 5px;
+        }
+
+        #mediaNum {
+            text-align: center;
+            background-color: grey;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Médias</th>
+            </tr>
+            <tr>
+                <td class="subTitle">Nota 1</td>
+                <td class="subTitle">Nota 2</td>
+            </tr>
+        </thead>
+        <tbody>
+            <th rowspan="5" style="color: black; background-color: white;">Exatas</th>
+            <tr>
+                <td class="leftAligment">Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="leftAligment">Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="leftAligment">Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="leftAligment">Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" id="footTitle">Médias de Exatas</th>
+                <td id="mediaNum">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" style="background-color: white; vertical-align: middle; color: black;">Humanas</th>
+                <td class="leftAligment">História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="leftAligment">Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" id="footTitle" style="padding: 7px;">Média de Humanas</th>
+                <td id="mediaNum" style="padding: 7px;">0.0</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
